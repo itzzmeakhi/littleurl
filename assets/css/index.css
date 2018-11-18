@@ -1,0 +1,171 @@
+
+/*-------------------------------------------*/
+/*----------- Common Properties -------------*/ 
+/*-------------------------------------------*/           
+
+* {
+	font-family: 'Shadows Into Light', cursive;
+	font-size: 15px;
+	letter-spacing: 2px;
+	color: #000;
+}
+
+/*-----------------------------------------------*/
+/*------------- Navbar Properties ---------------*/ 
+/*-----------------------------------------------*/ 
+
+nav {
+	
+}
+
+/*-----------------------------------------------*/
+/*----------- Background Properties -------------*/ 
+/*-----------------------------------------------*/           
+
+.body-container {
+	background-image: url('images/body-bg.jpg');
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;
+	min-height: 100vh;
+	opacity: 0.9;
+}
+
+/*-----------------------------------------------*/
+/*------------- URL Form Properties -------------*/ 
+/*-----------------------------------------------*/
+
+
+.url-form {
+	width: 50%;
+	padding-top: 10%;
+	position: relative;
+	left: 25%;
+}
+
+.url-form label{
+	font-size: 135%;
+	font-weight: bold;
+	margin-bottom: 10px;
+}
+
+.url-form input[type="text"] {
+	width: 27%;
+	height: 25%;
+	margin-bottom: 10px;
+}
+
+.url-form input[type="submit"] {
+	margin-top: 10px;
+	padding: 5px;
+	background-color: #34495e;
+	font-size: 102%;
+	font-weight: bold;
+	color: #fff;
+}
+
+.url-form span {
+	font-size: 105%;
+	font-weight: bold;
+}
+
+.url-form h6 {
+	font-weight: bold;
+}
+
+.display-littleurl {
+	position: relative;
+	left: 60%;
+	width: 50%;
+	margin-top: -15%;
+}
+
+.display-littleurl h4 {
+    font-size: 180%;
+    font-weight: bold;
+    padding-top: 5%;
+}
+
+.display-littleurl h4:after {
+	display: block;
+	height: 2px;
+	background-color: #000;
+	content: " ";
+	width: 150px;
+	margin: 0 25px;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+.display-littleurl h5 {
+	font-weight: bold;
+}
+
+/*-------------------------------------------------*/
+/*------------- Admin Form Properties -------------*/ 
+/*-------------------------------------------------*/
+
+.admin-form {
+	position: relative;
+	left: 40%;
+	right: 35%;
+	width: 25%;
+	padding-top: 10%;
+}
+
+.admin-form h3 {
+	font-weight: bold;
+}
+
+.admin-form label {
+	font-weight: bold;
+}
+
+.admin-form input[type="text"] {
+	margin-top: 10%;
+}
+
+.admin-form input[type="submit"] {
+	border-radius: 2px;
+	color: #fff;
+	background-color: #353b48;
+}
+
+/*---------------------------------------------------*/
+/*------------- Admin Access Properties -------------*/ 
+/*---------------------------------------------------*/
+
+table {
+	position: relative;
+	left: 30%;
+	padding-top: 20%;
+	font-size: 160%;
+	font-weight: bold;
+	width: 40%;
+}
+
+table h3 {
+	font-weight: bold;
+}
+
+.analysis-header {
+	position: relative;
+	left: 40%;
+	padding-top: 4%;
+	margin-bottom: 7%;
+	font-weight: bold;
+}
+
+.button {
+	margin-top: 20%;
+    display: block;
+    width: 100px;
+    height: 35px;
+    background: #353b48;
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+}
+
